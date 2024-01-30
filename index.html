@@ -5,23 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tailwind Tutorial</title>
+    <style>
+        .a4 {
+            width: 2480px;
+            height: 3508px;
+        }
+    </style>
 </head>
-<body>
-    <nav class="py-4 px-4 bg-lime-300 text-white">
-        <ul class="flex ">
-            <li class="mx-2 cursor-pointer ">
-                Home
-            </li>
-            <li class="mx-2 cursor-pointer">
-                About
-            </li>
-            <li class="mx-2 cursor-pointer">
-                Contact
-            </li>
-        </ul>
-    </nav>
-    <div class="container">
-
-    </div>
+<body> 
+    <dl class=" bg-slate-300 w-full divide-y divide-gray-100 font-medium">
+        <div class="pt-4 px-4 text-black">
+            <input class="block rounded-md ounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 " name="fullname" type="text" placeholder="Full Name">
+            <input class="block rounded-md ounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 " name="usermobile" type="text" placeholder="+977-98XX-XXX-XXX">
+            <input class="block rounded-md ounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 " name="useremail" type="text" placeholder="email@example.com">
+            <input class="block rounded-md ounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 " name="userbirth" type="text" placeholder="Date of Birth">
+            <input class="block rounded-md ounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 " name="useraddress" type="text" placeholder="Full Address">
+        </div>
+        <div class=" mt-6 divide-y divide-dashed">
+            <h2 class="mt-4 px-6">Introduction</h2>
+            <textarea class="m-4 rounded-md text-black h-36 w-11/12 align-text-top " name="userintroduction" placeholder="Introduction"/> </textarea>
+        </div>
+        <div class="px-4 py-6 ">
+            <h2 class="mt-4 px-6">Experience</h2>
+            <input class="block rounded-md ounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 " name="useraddress" type="text" placeholder="Company Name">
+            
+        </div>
+    </dl>
 </body>
 </html>
